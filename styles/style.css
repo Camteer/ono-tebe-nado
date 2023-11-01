@@ -2,7 +2,7 @@
 
 .header {
   display: flex;
-  margin: 92px 50px 90px ;
+  margin: 92px 50px 90px;
   position: relative;
   height: 109px;
   justify-content: space-between;
@@ -36,14 +36,13 @@
   gap: 0 32px;
 }
 .header__logo {
-  
   position: absolute;
-  
+
   left: 597px;
 }
 .header__logo-img {
-    width: 148px;
-    height: 105px;
+  width: 148px;
+  height: 105px;
 }
 .header__address {
   margin: 5px 0 7px 0;
@@ -54,7 +53,6 @@
 }
 .header__address a {
   display: block;
-  
 }
 
 /* cover */
@@ -71,7 +69,6 @@
 }
 .cover__image {
   opacity: 0.6;
-  
 }
 .cover__title {
   color: #fff;
@@ -88,7 +85,7 @@
   position: absolute;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
   padding: 0 50px;
 }
@@ -109,9 +106,9 @@
   display: inline;
 }
 .letter-spacing-standart1 {
-    letter-spacing: 30px;
-    display: inline;
-  }
+  letter-spacing: 30px;
+  display: inline;
+}
 .letter-spacing-extended {
   display: inline;
   letter-spacing: 35px;
@@ -246,14 +243,11 @@
 }
 .about__column {
   display: flex;
-  
 }
 .about__logo-content {
-  
   display: flex;
-  
+
   flex-grow: 1;
-  
 }
 .about__logo {
   background-color: black;
@@ -279,7 +273,7 @@
   list-style: none;
   flex-direction: column;
   flex-basis: 430px;
-  
+
   flex-grow: 3.8;
 }
 .about__title {
@@ -341,7 +335,6 @@
   flex-direction: column;
   gap: 0 32px;
   text-align: center;
-  
 }
 
 .footer__social-list {
