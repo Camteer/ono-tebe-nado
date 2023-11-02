@@ -3,7 +3,7 @@
 
 .header {
   display: flex;
-  margin: 92px 50px 60px;
+  margin: 92px 50px 92px;
   position: relative;
   justify-content: space-between;
   font-family: Raleway, sans-serif;
@@ -26,6 +26,11 @@
   list-style: none;
 }
 
+.header__link {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
 .header__link-unactive {
   text-decoration: none;
 }
@@ -40,7 +45,8 @@
 }
 
 .header__logo-img {
-  width: 148px;
+  max-width: 148px;
+  width: 100%;
   height: 105px;
 }
 
@@ -54,13 +60,15 @@
 
 .header__address a {
   display: block;
-  width: 133px;
+  max-width: 133px;
+  width: 100%;
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
 .address {
-  width: 237px;
+  max-width: 237px;
+  width: 100%;
 }
 
 /* cover */
@@ -240,12 +248,14 @@
 }
 
 .lots__look-more-link {
-  display: block;
-  padding: 31px 0 0 40px;
+  display: inline-block;
+  margin: 31px 0 0 40px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .card_type_film {
@@ -289,8 +299,8 @@
 }
 
 .about__logo-image {
-  width: 148px;
-  height: 114px;
+  max-width: 148px;
+  width: 100%;
 }
 
 .about__info {
@@ -346,9 +356,15 @@
   font-weight: 400;
 }
 
+.footer__link {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
 .footer__address a {
   display: block;
-  width: 133px;
+  max-width: 133px;
+  width: 100%;
   text-decoration: none;
   border-bottom: 1px solid;
 }
@@ -375,7 +391,8 @@
 
 .footer__social-list {
   display: flex;
-  width: 238px;
+  max-width: 238px;
+  width: 100%;
   justify-content: flex-end;
   gap: 48px;
   padding-top: 2px;
