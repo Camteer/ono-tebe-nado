@@ -1,3 +1,4 @@
+
 /* header*/
 
 .header {
@@ -33,6 +34,7 @@
   display: inline-flex;
   gap: 0 32px;
 }
+
 .header__logo {
   padding-right: 150px;
 }
@@ -177,6 +179,7 @@
   padding: 181px 50px 181px 50px;
   color: #000;
 }
+
 .lots__title {
   padding-left: 40px;
   font-size: 40px;
@@ -198,6 +201,7 @@
   list-style: none;
   flex-wrap: wrap;
 }
+
 .lots__card-item {
   flex-basis: 430px;
   padding-top: 25px;
@@ -234,6 +238,7 @@
   font-weight: 400;
   line-height: 120%;
 }
+
 .lots__look-more-link {
   display: block;
   padding: 31px 0 0 40px;
@@ -246,14 +251,17 @@
 .card_type_film {
   flex-grow: 1;
 }
+
 .card_type_book {
   flex-grow: 1;
 }
+
 .card_type_picture {
   flex-grow: 1;
 }
 
 /* about */
+
 .about {
   padding: 0 50px;
 }
